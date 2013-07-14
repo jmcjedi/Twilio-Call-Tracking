@@ -2,8 +2,7 @@
   
   require "Services/Twilio.php";
  
-  $sid = $_GET['id'];
-  //$sid = "ACXXXXXX"; // The customer's AccountSid
+  $sid = $_GET["id"];
   $token = "27019bb0e54d4899aa4220b45d64e77b"; // Your account's AuthToken
      
   // create a new instance of the Twilio REST client
